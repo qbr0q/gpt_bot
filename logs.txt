@@ -1,0 +1,164 @@
+2024-03-16 22:51:26,139 - root - INFO - create table database.sqlite done
+2024-03-16 22:51:26,146 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 22:51:26,667 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getMe HTTP/1.1" 200 202
+2024-03-16 22:51:26,672 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 22:51:28,353 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 349
+2024-03-16 22:51:28,355 - root - DEBUG - Получены логи пользователем 707043617
+2024-03-16 22:51:28,363 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 22:51:29,047 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendDocument?chat_id=707043617 HTTP/1.1" 200 432
+2024-03-16 22:51:48,464 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055721&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:52:08,520 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055721&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:52:16,128 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055721&timeout=20 HTTP/1.1" 200 349
+2024-03-16 22:52:16,130 - root - DEBUG - /start - 707043617
+2024-03-16 22:52:16,223 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendMessage?chat_id=707043617&text=start HTTP/1.1" 200 251
+2024-03-16 22:52:16,227 - root - INFO - get users data done
+2024-03-16 22:52:16,330 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendMessage?chat_id=707043617&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0444%5Cu0438%5Cu0437%5Cu0438%5Cu043a%5Cu0430%22%2C+%22callback_data%22%3A+%22%5Cu0444%5Cu0438%5Cu0437%5Cu0438%5Cu043a%5Cu0430%22%7D%2C+%7B%22text%22%3A+%22%5Cu0445%5Cu0438%5Cu043c%5Cu0438%5Cu044f%22%2C+%22callback_data%22%3A+%22%5Cu0445%5Cu0438%5Cu043c%5Cu0438%5Cu044f%22%7D%5D%5D%7D HTTP/1.1" 200 570
+2024-03-16 22:52:16,339 - root - INFO - update user data done for 707043617
+2024-03-16 22:52:18,028 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055722&timeout=20 HTTP/1.1" 200 831
+2024-03-16 22:52:18,032 - root - INFO - get user data done for 707043617
+2024-03-16 22:52:18,034 - root - INFO - update user data done for 707043617
+2024-03-16 22:52:18,039 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 22:52:18,707 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/editMessageText?text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D1%83%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%8C+%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D0%B9&chat_id=707043617&message_id=317&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22easy%22%2C+%22callback_data%22%3A+%22easy%22%7D%2C+%7B%22text%22%3A+%22hard%22%2C+%22callback_data%22%3A+%22hard%22%7D%5D%5D%7D HTTP/1.1" 200 514
+2024-03-16 22:52:19,241 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055723&timeout=20 HTTP/1.1" 200 749
+2024-03-16 22:52:19,244 - root - INFO - get user data done for 707043617
+2024-03-16 22:52:19,250 - root - INFO - update user data done for 707043617
+2024-03-16 22:52:19,389 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/editMessageText?text=%D0%92%D0%B2%D0%B5%D0%B4%D0%B8%D1%82%D0%B5+%D0%B2%D0%B0%D1%88+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%3A+&chat_id=707043617&message_id=317 HTTP/1.1" 200 368
+2024-03-16 22:52:26,518 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055724&timeout=20 HTTP/1.1" 200 359
+2024-03-16 22:52:26,521 - root - INFO - get user data done for 707043617
+2024-03-16 22:52:26,528 - root - INFO - update user data done for 707043617
+2024-03-16 22:52:26,528 - root - INFO - запрос от 707043617 с текстом что такое медь
+2024-03-16 22:52:26,531 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:1234
+2024-03-16 22:53:33,630 - root - INFO - create table database.sqlite done
+2024-03-16 22:53:33,643 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 22:53:34,230 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getMe HTTP/1.1" 200 202
+2024-03-16 22:53:34,236 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 22:53:49,613 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 359
+2024-03-16 22:53:49,623 - root - INFO - get user data done for 707043617
+2024-03-16 22:53:49,625 - root - INFO - update user data done for 707043617
+2024-03-16 22:53:49,625 - root - INFO - запрос от 707043617 с текстом что такое медь
+2024-03-16 22:53:49,629 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:1234
+2024-03-16 22:54:09,667 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:54:29,725 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:54:49,779 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:55:09,830 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:55:29,879 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:55:49,929 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:56:09,985 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:56:30,043 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:56:50,090 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:57:10,139 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:57:30,187 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:57:50,235 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:58:10,282 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:58:30,330 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:58:50,379 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:59:10,429 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:59:30,479 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 22:59:32,341 - urllib3.connectionpool - DEBUG - http://localhost:1234 "POST /v1/chat/completions HTTP/1.1" 200 1750
+2024-03-16 22:59:32,347 - root - INFO - update user data done for 707043617
+2024-03-16 22:59:32,360 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 22:59:32,983 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendMessage?chat_id=707043617&text=+%D0%9C%D0%B5%D0%B4%D1%8C+-+%D1%8D%D1%82%D0%BE+%D1%81%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D1%8F%D1%81%D1%82%D0%BE-%D0%B1%D0%B5%D0%BB%D0%B0%D1%8F+%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB+%D1%81+%D1%81%D0%B8%D0%BD%D0%B5%D0%B2%D0%BE-%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%8B%D0%BC+%D0%BE%D1%82%D0%BB%D0%B8%D0%B2%D0%BE%D0%BC%2C+%D1%87%D1%82%D0%BE+%D0%BF%D1%80%D0%B8%D1%81%D1%83%D1%89%D0%B5%D0%BC%D1%83+%D0%B5%D0%BC%D1%83+%D1%85%D0%B0%D1%80%D0%B0%D0%BA%D1%82%D0%B5%D1%80%D0%BD%D1%8B%D0%BC%D0%B8+%D1%81%D0%B2%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%D0%BC%D0%B8.+%D0%AD%D1%82%D0%B0+%D0%BC%D0%B5%D0%B4%D1%8C+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BCalleable%2C+%D0%BF%D1%80%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D0%B8+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0.%0A++%D0%9C%D0%B5%D0%B4%D1%8C+%D1%8F%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F+%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B9+%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%BE%D0%BC%2C+%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D0%BC%D0%B0%D1%8F+%D0%B2+%D1%85%D0%B8%D0%BC%D0%B8%D0%B8%2C+%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B5%2C+%D0%BF%D0%B8%D1%89%D0%B5%D0%B2%D0%BE%D0%B9+%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D0%B8%2C+%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5+%D0%B8+%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D1%85+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8F%D1%85.+%D0%92+%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9+%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B5%2C+%D0%BD%D0%B0%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%80%2C+%D0%BC%D0%B5%D0%B4%D1%8C+%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D1%81%D1%8F+%D0%B2+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5+%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%B8%D0%BC%D0%BE%D0%B9+%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D0%B0+%D0%B4%D0%BB%D1%8F+%D0%B8%D0%B7%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F+%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BE%D0%B2+%D0%BC%D0%B5%D0%B6%D0%B4%D1%83+%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8+%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D1%85%D0%B5%D0%BC%D0%B0%D0%BC%D0%B8+%D0%B8+%D0%BE%D0%B1%D0%BE%D1%80%D1%83%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC.%0A++%D0%9C%D0%B5%D0%B4%D1%8C+%D1%82%D0%B0%D0%BA%D0%B6%D0%B5+%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B5%D1%82%D1%81%D1%8F+%D0%BA%D0%B0%D0%BA+%D1%81%D1%80%D0%B5%D0%B4%D0%B0+%D0%BE%D0%B1%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F+%D0%BD%D0%B5%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D1%85+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%BC%D0%BE%D0%B2%2C+%D1%82%D0%B0%D0%BA%D0%B8%D1%85+%D0%BA%D0%B0%D0%BA+%D1%87%D0%B5%D1%80%D0%B2%D0%B8%2C+%D0%BA%D1%80%D0%B0%D0%B1%D0%BE%D0%B2+%D0%B8+%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5+%D1%80%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%B4%D0%BD%D1%8B%D0%B5%2C+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5+%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D0%B2%D0%B0%D1%8E%D1%82%D1%81%D1%8F+%D0%B2+%D0%B2%D0%BE%D0%B4%D0%B5%2C+%D0%B3%D0%B4%D0%B5+%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82%D1%81%D1%8F+%D0%BC%D0%B5%D0%B4%D1%8C.+%D0%9F%D1%80%D0%B8+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%BC+%D1%81%D0%BE%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%D0%B8+%D0%BC%D0%B5%D0%B4%D0%B8+%D0%B2+%D0%B2%D0%BE%D0%B4%D0%B5+%D0%BE%D0%BD%D0%B0+%D0%BC%D0%BE%D0%B6%D0%B5%D1%82+%D0%B1%D1%8B%D1%82%D1%8C+%D1%82%D0%BE%D0%BA%D1%81%D0%B8%D1%87%D0%BD%D1%8B+%D0%B4%D0%BB%D1%8F+%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%BD%D1%8B%D1%85+%D0%B8+%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0. HTTP/1.1" 200 3759
+2024-03-16 22:59:50,528 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:00:10,574 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:00:30,623 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:00:50,670 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:01:10,716 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:01:30,764 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:01:50,811 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:02:10,857 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:02:30,904 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:02:50,951 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:03:10,997 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:03:31,045 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:03:51,091 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:03:51,108 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 23:04:11,623 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:04:31,678 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:04:51,725 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:05:01,428 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055726&timeout=20 HTTP/1.1" 200 352
+2024-03-16 23:05:01,433 - root - INFO - get user data done for 707043617
+2024-03-16 23:05:01,434 - root - INFO - запрос от 707043617 с текстом что такое медь
+2024-03-16 23:05:01,437 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:1234
+2024-03-16 23:05:21,480 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055727&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:05:41,528 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055727&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:06:01,578 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055727&timeout=20 HTTP/1.1" 200 23
+2024-03-16 23:06:02,481 - urllib3.connectionpool - DEBUG - http://localhost:1234 "POST /v1/chat/completions HTTP/1.1" 200 490
+2024-03-16 23:06:02,526 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendMessage?chat_id=707043617&text= HTTP/1.1" 400 80
+2024-03-16 23:06:02,538 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+2024-03-16 23:06:02,540 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\util.py", line 92, in run
+    task(*args, **kwargs)
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\__init__.py", line 7868, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\main.py", line 50, in continue_answer
+    bot.send_message(user_id, answer)
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\__init__.py", line 1673, in send_message
+    apihelper.send_message(
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\apihelper.py", line 264, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\apihelper.py", line 164, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\apihelper.py", line 191, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+2024-03-16 23:06:21,305 - root - INFO - create table database.sqlite done
+2024-03-16 23:06:21,332 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 23:06:21,996 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getMe HTTP/1.1" 200 202
+2024-03-16 23:06:22,015 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 23:06:22,724 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 352
+2024-03-16 23:06:22,734 - root - INFO - get user data done for 707043617
+2024-03-16 23:06:22,736 - root - INFO - запрос от 707043617 с текстом что такое медь
+2024-03-16 23:06:22,749 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:1234
+2024-03-16 23:06:24,514 - urllib3.connectionpool - DEBUG - http://localhost:1234 "POST /v1/chat/completions HTTP/1.1" 200 489
+2024-03-16 23:06:24,525 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 23:06:25,067 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendMessage?chat_id=707043617&text= HTTP/1.1" 400 80
+2024-03-16 23:06:25,100 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+2024-03-16 23:06:25,106 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\__init__.py", line 1141, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\util.py", line 149, in raise_exceptions
+    raise self.exception_info
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\util.py", line 92, in run
+    task(*args, **kwargs)
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\__init__.py", line 7868, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\main.py", line 50, in continue_answer
+    bot.send_message(user_id, answer)
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\__init__.py", line 1673, in send_message
+    apihelper.send_message(
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\apihelper.py", line 264, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\apihelper.py", line 164, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Макс\PycharmProjects\PostApiGpt_2\venv\Lib\site-packages\telebot\apihelper.py", line 191, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+
+2024-03-16 23:06:39,060 - root - INFO - create table database.sqlite done
+2024-03-16 23:06:39,067 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 23:06:39,592 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getMe HTTP/1.1" 200 202
+2024-03-16 23:06:39,600 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 23:06:43,619 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 349
+2024-03-16 23:06:43,621 - root - DEBUG - /start - 707043617
+2024-03-16 23:06:43,627 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2024-03-16 23:06:44,231 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendMessage?chat_id=707043617&text=start HTTP/1.1" 200 251
+2024-03-16 23:06:44,234 - root - INFO - get users data done
+2024-03-16 23:06:44,316 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "POST /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/sendMessage?chat_id=707043617&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%BF%D1%80%D0%B5%D0%B4%D0%BC%D0%B5%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0444%5Cu0438%5Cu0437%5Cu0438%5Cu043a%5Cu0430%22%2C+%22callback_data%22%3A+%22%5Cu0444%5Cu0438%5Cu0437%5Cu0438%5Cu043a%5Cu0430%22%7D%2C+%7B%22text%22%3A+%22%5Cu0445%5Cu0438%5Cu043c%5Cu0438%5Cu044f%22%2C+%22callback_data%22%3A+%22%5Cu0445%5Cu0438%5Cu043c%5Cu0438%5Cu044f%22%7D%5D%5D%7D HTTP/1.1" 200 570
+2024-03-16 23:06:44,326 - root - INFO - update user data done for 707043617
+2024-03-16 23:06:50,203 - urllib3.connectionpool - DEBUG - https://api.telegram.org:443 "GET /bot7019714244:AAHVCspxjjYxT8jSvwPs1JtNi8_u0i6f4QA/getUpdates?offset=641055729&timeout=20 HTTP/1.1" 200 352
+2024-03-16 23:06:50,207 - root - INFO - get user data done for 707043617
+2024-03-16 23:06:50,207 - root - INFO - запрос от 707043617 с текстом что такое медь
+2024-03-16 23:06:50,212 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:1234
